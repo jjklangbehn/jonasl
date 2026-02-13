@@ -1,0 +1,13 @@
+.profilepicture {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  border: 3px solid hsl(0, 0%, 4%);
+  box-shadow: 0px 0px 0px 3px #2353f1;
+  margin-right: 16px;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

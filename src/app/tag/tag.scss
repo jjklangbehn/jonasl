@@ -1,0 +1,13 @@
+.tag {
+  display: inline-flex;
+  padding: 4px 8px 4px 8px;
+  margin-right: 5px;
+  background-color: hsl(0, 0%, 10%);
+  border: hsl(0, 0%, 20%) solid 1px;
+  align-content: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}

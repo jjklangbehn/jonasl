@@ -1,0 +1,17 @@
+.cta-wrap {
+  /* Spacing-Einstellungen – wie Flutter: spacing & runSpacing */
+  --spacing: 12px;
+  /* horizontaler Abstand zwischen Items */
+  --run-spacing: 6px;
+  /* vertikaler Abstand zwischen Zeilen */
+  display: flex;
+  flex-wrap: wrap;
+  /* erlaubt Umbruch auf neue Zeilen */
+  gap: var(--run-spacing) var(--spacing);
+  /* row-gap | column-gap */
+  /* Optional: Ausrichtung innerhalb der Zeilen/Zeilenblock */
+  justify-content: flex-start;
+  /* ähnlich alignment */
+  align-content: flex-start;
+  /* ähnelt runAlignment */
+}

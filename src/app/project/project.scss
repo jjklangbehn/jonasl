@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+.project {
+  display: flex;
+  justify-content: start;
+  align-content: start;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.project:hover {
+  background-color: hsl(0, 0%, 9%);
+  cursor: pointer;
+}
+
+.project-picture {
+  height: 50px;
+  width: 50px;
+  margin-right: 12px;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

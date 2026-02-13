@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: hsl(0, 0%, 4%); /* 10% */
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+h3 {
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+p {
+  color: hsl(0, 0%, 65%);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.wrap {
+  /* Spacing-Einstellungen – wie Flutter: spacing & runSpacing */
+  --spacing: 2px;
+  /* horizontaler Abstand zwischen Items */
+  --run-spacing: 6px;
+  /* vertikaler Abstand zwischen Zeilen */
+  display: flex;
+  flex-wrap: wrap;
+  /* erlaubt Umbruch auf neue Zeilen */
+  gap: var(--run-spacing) var(--spacing);
+  /* row-gap | column-gap */
+  /* Optional: Ausrichtung innerhalb der Zeilen/Zeilenblock */
+  justify-content: flex-start;
+  /* ähnlich alignment */
+  align-content: flex-start;
+  /* ähnelt runAlignment */
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
