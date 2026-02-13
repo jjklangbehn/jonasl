@@ -33,13 +33,16 @@
 }
 
 .story-progress {
+  margin: 12px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 4px;
-  background: hsl(0, 0%, 0%, 0.25);
-  border-radius: 0px;
+  background: hsl(0, 0%, 0%, 0.15);
+  /* border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px; */
+  border-radius: 4px;
   overflow: hidden;
   z-index: 2;
 }
@@ -47,7 +50,9 @@
 .story-progress-bar {
   height: 100%;
   background: #ffffff;
-  border-radius: 0px;
+  /* border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px; */
+  border-radius: 4px;
   animation: progress-shrink linear forwards;
   width: 100%;
 }
@@ -67,10 +72,10 @@
 
 .story-meta {
   position: absolute;
-  top: 14px;
+  top: 22px; /* 14px; */
   left: 16px;
   font-size: 14px;
-  font-weight: 500;
+  /* font-weight: 500; */
   color: white;
   opacity: 0.85;
   z-index: 2;
@@ -94,14 +99,4 @@
   font-size: 18px;
   font-weight: 600;
   opacity: 0.9;
-}
-
-.story-timer {
-  position: absolute;
-  bottom: 12px;
-  right: 16px;
-  font-size: 12px;
-  opacity: 0.5;
-  font-variant-numeric: tabular-nums;
-  z-index: 2;
 }

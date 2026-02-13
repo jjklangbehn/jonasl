@@ -9,4 +9,6 @@ import { Component, Input } from '@angular/core';
 export class SecondaryButton {
   @Input() title: any;
   @Input() url: any;
+  @Input() icon: string | null = null;
+  @Input() download: boolean = false;
 }

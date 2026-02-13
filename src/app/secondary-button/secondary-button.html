@@ -1,3 +1,8 @@
-<a href="{{ url }}" target="_blank">
-    <div class="secondary-button"><span>{{ title }}</span></div>
+<a href="{{ url }}" [attr.download]="download ? '' : null" target="_blank">
+    <div class="secondary-button">
+        @if (icon) {
+        <img [src]="icon" class="button-icon" alt="" />
+        }
+        <span>{{ title }}</span>
+    </div>
 </a>

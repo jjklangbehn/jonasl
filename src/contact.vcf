@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Langbehn;Jonas;;;
+FN:Jonas Langbehn
+ORG:jonasl.dev;
+TITLE:Software Developer
+PHOTO;TYPE=JPEG;VALUE=URI:http://example.com/photo.jpg
+LOGO;TYPE=JPEG;VALUE=URI:http://example.com/logo.jpg
+URL:https://jonasl.dev
+EMAIL;TYPE=work:jjklangbehn@gmail.com
+TEL;TYPE=work,voice:+4915123602901
+ADR;TYPE=work:;;;Wiesbaden;Hessen;65185;Deutschland
+IMPP;TYPE=LinkedIn:LinkedIn:https://www.linkedin.com/in/jonaslangbehn/
+GEO:50.0751;8.2378
+REV:20250927T120000Z
+UID:jjklangbehn@gmail.com
+END:VCARD

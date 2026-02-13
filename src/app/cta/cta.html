@@ -3,6 +3,12 @@
 <div class="wrap">
     <app-primary-button [title]="'Say Hello'"
         [url]="'mailto:jjklangbehn@gmail.com?subject=Hello&body=I%20need%20an%20app%2C%20please.%20%3A'" /><br>
-    <app-secondary-button [title]="'LinkedIn'" [url]="'http://linkedin.com/in/jonaslangbehn/'" /><br>
-    <app-secondary-button [title]="'GitHub'" [url]="'https://github.com/jjklangbehn'" /><br>
+    <app-secondary-button [title]="'LinkedIn'" [icon]="'../../assets/icons/linkedin-icon.png'"
+        [url]="'http://linkedin.com/in/jonaslangbehn/'" /><br>
+    <app-secondary-button [title]="'GitHub'" [icon]="'../../assets/icons/github-icon.png'"
+        [url]="'https://github.com/jjklangbehn'" /><br>
+    <app-secondary-button [title]="'Contact'" [icon]="'../../assets/icons/contact-icon.png'" [url]="'contact.vcf'"
+        [download]="true" /><br>
+    <!-- <app-secondary-button [title]="'Surprise'" [icon]="'../../assets/icons/surprise-icon.png'"
+        [url]="getSurprise()" /><br> -->
 </div>
