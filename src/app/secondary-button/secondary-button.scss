@@ -20,16 +20,15 @@
 
 .secondary-button:hover {
   display: inline-block;
-  background-color: hsl(0, 0%, 6%);
+  background-color: hsl(0, 0%, 9%);
 }
 
 .secondary-button:hover span {
-  display: none;
-  background-color: hsl(0, 0%, 6%);
+  display: inline-block;
+  background-color: hsl(0, 0%, 9%);
 }
 
 .secondary-button:hover:before {
   display: inline-block;
-  content: attr(data-text);
-  background-color: hsl(0, 0%, 6%);
+  background-color: hsl(0, 0%, 9%);
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect id="J" x="0" y="0" width="1024" height="1024" style="fill:none;"/>
+    <g id="J1" serif:id="J">
+        <g transform="matrix(2.71266,0,0,3.01789,-364.884,-861.518)">
+            <rect x="134.511" y="285.47" width="377.489" height="339.31" style="fill:rgb(26,26,26);"/>
+        </g>
+        <g id="NEW">
+            <path id="broke-1-2" serif:id="broke 1/2" d="M716.805,580.253L785.08,580.253C785.08,730.97 662.717,853.333 512,853.333C361.283,853.333 238.92,730.97 238.92,580.253L375.45,580.253C375.45,655.617 436.636,716.803 512,716.803C587.364,716.803 648.55,655.617 648.55,580.253L580.255,580.253L580.255,170.667L716.805,170.667L716.805,580.253Z" style="fill:white;"/>
+        </g>
+    </g>
+</svg>

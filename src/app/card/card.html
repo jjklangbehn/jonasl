@@ -1,6 +1,19 @@
 <div class="center">
+    @if (showStory()) {
+    <div class="card story-card" (click)="handleClick()" (mousedown)="pauseStory()" (mouseup)="resumeStory()"
+        (mouseleave)="resumeStory()" (touchstart)="pauseStory()" (touchend)="resumeStory()">
+        <div class="story-progress">
+            <div class="story-progress-bar" [style.animation-duration]="'5s'" [class.paused]="paused()"></div>
+        </div>
+        <div class="story-meta">Jonas &bull; 21. Oktober 2025</div>
+        <div class="story-content">
+            <img src="../../assets/20251021_story.jpg" alt="" class="story-image">
+        </div>
+        <div class="story-timer">{{ countdown() }}</div>
+    </div>
+    } @else {
     <div class="card">
-        <app-profile />
+        <app-profile (pictureClicked)="openStory()" />
         <app-description />
         <app-divider />
         <app-techstack />
@@ -9,4 +22,5 @@
         <app-divider />
         <app-cta />
     </div>
+    }
 </div>

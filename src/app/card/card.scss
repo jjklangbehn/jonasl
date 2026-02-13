@@ -20,3 +20,88 @@
   align-items: center;
   min-height: 100%;
 }
+
+.story-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 640px;
+  width: 360px;
+  overflow: hidden;
+}
+
+.story-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: hsl(0, 0%, 0%, 0.25);
+  border-radius: 0px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.story-progress-bar {
+  height: 100%;
+  background: #ffffff;
+  border-radius: 0px;
+  animation: progress-shrink linear forwards;
+  width: 100%;
+}
+
+@keyframes progress-shrink {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+.story-progress-bar.paused {
+  animation-play-state: paused;
+}
+
+.story-meta {
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.85;
+  z-index: 2;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.story-content {
+  position: absolute;
+  inset: 0;
+}
+
+.story-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.story-text {
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.story-timer {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  font-size: 12px;
+  opacity: 0.5;
+  font-variant-numeric: tabular-nums;
+  z-index: 2;
+}

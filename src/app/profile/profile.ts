@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, Input } from '@angular/core';
+import { Component, OnInit, OnDestroy, Input, output } from '@angular/core';
 
 @Component({
   selector: 'app-profile',
@@ -7,10 +7,11 @@ import { Component, OnInit, OnDestroy, Input } from '@angular/core';
   styleUrl: './profile.scss',
 })
 export class Profile implements OnInit, OnDestroy {
+  pictureClicked = output();
   @Input() titles: string[] = [
     'Software Engineer',
     'App Developer',
-    'Flutter Fanboy',
+    'Flutter Fan',
     'Web Developer',
     'Angular Achiever',
     'Mobile Developer',
